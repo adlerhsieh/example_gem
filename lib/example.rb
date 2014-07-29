@@ -1,11 +1,7 @@
 require "example/version"
 
 module Example
-  def initialize
-
-  end
-
-  def start
+  def self.start
   	"The gem works!"
   end
 end
