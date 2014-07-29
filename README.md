@@ -1,31 +1,23 @@
 # Example
 
-This is my first gem
+This is my first gem. This gem simply generates a "The gem works" string.
 
-## Installation
-
-Add this line to your application's Gemfile:
+Installing locally by adding the following line in the gemfile:
 
 ```ruby
-gem 'example'
+gem 'example', :path => "/whatever/path/you/have/from/your/root"
 ```
 
-And then execute:
+And don't forget to:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install example
-
 ## Usage
 
-TODO: Write usage instructions here
+Add the following line in whatever situation:
 
-## Contributing
+```ruby
+Example.build
+```
 
-1. Fork it ( https://github.com/[my-github-username]/example/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+and "The gem works!" will appear.
