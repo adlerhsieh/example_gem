@@ -1,6 +1,6 @@
 # Example
 
-TODO: Write a gem description
+This is my first gem
 
 ## Installation
 

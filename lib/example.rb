@@ -1,5 +1,11 @@
 require "example/version"
 
 module Example
-  # Your code goes here...
+  def initialize
+
+  end
+
+  def start
+  	"The gem works!"
+  end
 end
